@@ -1,8 +1,14 @@
+import Canvas from './canvas';
+import Custermizer from './pages/Custermizer';
+import Home from './pages/Home';
+
 function App() {
   return (
-    <div className="App">
-      <h1 className="head-text">React App</h1>
-    </div>
+    <main className="app translation-all ease-in">
+      <Home />
+      <Custermizer />
+      <Canvas />
+    </main>
   )
 }
 
