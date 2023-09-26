@@ -30,3 +30,33 @@
     ```bash
     npm run dev
     ```
+
+--------------------------------------------------------------------------------------------------
+## to correctly setup server folder
+
+1. firstly close all the currently opening files regarding to the "app" folder
+2. Then create a folder name "server"
+3. open the terminal and press "ctrl+c" to stop the server
+4. Go to the app directry
+    ```bash
+    cd ..
+    cd .\server\     #to go to the file directly
+    ```
+5. To install files regarding to the package jason
+    ```bash
+   npm init -y
+    ```
+6. to install dependancies
+    ```bash
+    npm install cloudinary cors dotenv express mongoose nodemon openai
+    ```
+
+7. to start the server
+    ```bash
+    npm start
+    ```
+
+## To create a OPENAI API KEY
+1. Go to the website https://platform.openai.com/account/api-keys
+2. Create a new API key and copy it
+3. Create a file name ".env" in the server folder and paste the API key in it
