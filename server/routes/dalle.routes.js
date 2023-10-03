@@ -5,6 +5,7 @@ import { Configuration, OpenAIApi} from 'openai';
 
 dotenv.config();
 
+
 const router = express.Router();  
 
 const config= new Configuration({
