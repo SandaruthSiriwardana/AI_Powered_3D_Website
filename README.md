@@ -31,7 +31,7 @@
     npm run dev
     ```
 
---------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 ## to correctly setup server folder
 
 1. firstly close all the currently opening files regarding to the "app" folder
